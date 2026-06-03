@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calc-wrap">
+    <div class="calc">
+      <div class="display-area">
+        <div class="expression" id="expr"></div>
+        <div class="main-display" id="display">0</div>
+      </div>
+      <div class="key-grid">
+        <button class="btn btn-fn" id="btn-ac" onclick="pressAC()">AC</button>
+        <button class="btn btn-fn" onclick="pressSign()">+/−</button>
+        <button class="btn btn-fn" onclick="pressPercent()">%</button>
+        <button class="btn btn-op" id="op-div" onclick="pressOp('÷')">÷</button>
+
+        <button class="btn btn-num" onclick="pressNum('7')">7</button>
+        <button class="btn btn-num" onclick="pressNum('8')">8</button>
+        <button class="btn btn-num" onclick="pressNum('9')">9</button>
+        <button class="btn btn-op" id="op-mul" onclick="pressOp('×')">×</button>
+
+        <button class="btn btn-num" onclick="pressNum('4')">4</button>
+        <button class="btn btn-num" onclick="pressNum('5')">5</button>
+        <button class="btn btn-num" onclick="pressNum('6')">6</button>
+        <button class="btn btn-op" id="op-sub" onclick="pressOp('−')">−</button>
+
+        <button class="btn btn-num" onclick="pressNum('1')">1</button>
+        <button class="btn btn-num" onclick="pressNum('2')">2</button>
+        <button class="btn btn-num" onclick="pressNum('3')">3</button>
+        <button class="btn btn-op" id="op-add" onclick="pressOp('+')">+</button>
+
+        <button class="btn btn-num btn-zero" onclick="pressNum('0')">0</button>
+        <button class="btn btn-num" onclick="pressDot()">.</button>
+        <button class="btn btn-eq" onclick="pressEquals()">=</button>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
