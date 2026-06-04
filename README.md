@@ -1,4 +1,4 @@
-🧮Calculator 🧮
+Calculator 🧮
 A clean, responsive Calculator built with vanilla HTML, CSS & JavaScript. Performs all basic arithmetic operations with a smooth, modern UI — no libraries needed.
 
 Features
@@ -38,6 +38,8 @@ Click number buttons to input digits
 Choose an operator ( + − × ÷ )
 Press = to see the result
 Press AC to clear and start over
+
+
 
 
 
