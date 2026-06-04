@@ -32,7 +32,6 @@ calculator/
 ├── index.html   → Layout and button structure
 ├── style.css    → Styling and responsive design
 └── script.js    → Calculation logic
-
 How to Use
 
 Click number buttons to input digits
