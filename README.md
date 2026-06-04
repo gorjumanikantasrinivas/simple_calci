@@ -22,16 +22,17 @@ bashgit clone https://github.com/gorjumanikantasrinivas/calculator.git
 
 Open the project folder
 
-bashcd calculator
-
+cd calculator
 Open index.html in your browser — no installs needed!
 
 
 Project Structure
+```
 calculator/
 ├── index.html   → Layout and button structure
 ├── style.css    → Styling and responsive design
 └── script.js    → Calculation logic
+```
 How to Use
 
 Click number buttons to input digits
