@@ -1,4 +1,5 @@
 Calculator 🧮
+
 A clean, responsive Calculator built with vanilla HTML, CSS & JavaScript. Performs all basic arithmetic operations with a smooth, modern UI — no libraries needed.
 
 Features
@@ -17,7 +18,7 @@ Getting Started
 
 Clone the repository
 
-bashgit clone https://github.com/your-username/calculator.git
+bashgit clone https://github.com/gorjumanikantasrinivas/calculator.git
 
 Open the project folder
 
